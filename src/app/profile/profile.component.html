@@ -1,6 +1,6 @@
 <form action="" class="search-form">
     <div>
-        <input type="text" class="form-control" placeholder="search username">
+        <input type="text" class="form-control" placeholder="search username" [(ngModel)]="username" name="username"(keyup)="findprofile()">
     </div>
 
 </form>

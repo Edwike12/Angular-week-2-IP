@@ -30,6 +30,10 @@ export class ServicesComponent implements OnInit {
     map((res:Response)=> { return res.json()}));
    }
 
+   updateProfile(username:string){
+     this.username;username;
+   }
+
   ngOnInit(): void {
   }
 
