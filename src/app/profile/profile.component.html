@@ -25,6 +25,15 @@
                             <span class="label label-success">{{profile.public_repos}}Repositories</span>
                         </p>
                         <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm"> view profile on github</a></p>
+                        <div class="panel.panel.default">
+                            <div class="panel-heading">
+                                <h3 class="panel-titles">Repos</h3>
+                            </div>
+                            <div class="panel-body" *ngFor "let repo of repos">
+                                <p></p>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
