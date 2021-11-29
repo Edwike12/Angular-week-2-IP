@@ -8,9 +8,12 @@ import { ServicesComponent } from '../services/services.component';
 })
 export class ProfileComponent implements OnInit {
 
+  profile:any[string];
+
   constructor(private ServicesComponent: ServicesComponent ) { 
     this.ServicesComponent.getProfileInfo().subscribe(profile=> {
       console.log(profile);
+      this.profile = profile;
     });
   }
 
