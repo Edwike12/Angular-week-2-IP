@@ -20,8 +20,9 @@ import { ServicesComponent } from './services/services.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
+    
   ],
-  providers: [],
+  providers: [ServicesComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
